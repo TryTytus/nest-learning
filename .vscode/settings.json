@@ -1,0 +1,37 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "local",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "1719"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "mysql",
+            "database": "Local Instance MySQL80",
+            "username": "root"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "nest",
+            "database": "nest",
+            "username": "postgres",
+            "password": "1719"
+        }
+    ]
+}
